@@ -13,3 +13,6 @@ puts <<end.strip_heredoc
 
   "Interpolated #{stuff} can be added"
 end
+
+# strip_heredoc -- the amount of whitespace before the start of the 1st line is 
+# detected, and that amount of whitespace is then stripped of of each line.
