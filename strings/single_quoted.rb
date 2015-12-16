@@ -4,4 +4,4 @@ puts 'This is a string' # prints: This is a string
 # Escaped single quote
 puts 'Connan O\'Brian' # prints: Connan O'Brian - the apostrophe is IN the string literal
 # Escaped backslash
-puts 'The foler is in C:\\HOME' # prints: The folder is in C:\HOME
+puts 'The folder is in C:\\HOME' # prints: The folder is in C:\HOME
