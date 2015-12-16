@@ -4,19 +4,20 @@
 
 string = "Erin"
 
-string.each_byte {|byte| print byte, " "}
+string.each_byte {|byte| print byte, " ", byte.class, " "}
 puts
 
 # This will print all of the characters as bytes according to what is within string_2 
 # and transfer them into an array.
 
-string_2 = print string.bytes.to_a
-puts string_2
+string_2 = string.bytes.to_a
+print string_2
+puts string_2.class
 
 # Characters in a string are available via the each_char method
 # A one character string, may be more than one byte
 
-string.each_char {|char| print char, " "}
+string.each_char {|char| print char, " ", char.class, " "}
 puts
 
 # You can also break strings up by using scan with a wildcard regular expression matching a character
