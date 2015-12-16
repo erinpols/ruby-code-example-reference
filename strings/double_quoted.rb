@@ -14,14 +14,14 @@
 
 # Interpolation Example
 name = "Erin"
-puts "My name is #{name}"
+puts "My name is #{name}" #prints: My name is Erin
 puts "three plus three is #{3+3}" # prints: three plus three is 6
-# Bell Escape Sequence
+# Bell Escape Sequence - rings a bell
 puts "\aHello World\a" 
 puts "\007This is also a bell"
 # Backslash Escape Sequence
 puts "Hello\b\b\b\b\bGoodbye World" # prints: Goodbye World
-# Carriage Return and Newline Escape Sequence
+# Carriage Return and Newline Escape Sequence - starts a new line
 puts "Hello\rStart over world"
 puts "1. Hello\n2. World"
 # Tab Escape Sequence
