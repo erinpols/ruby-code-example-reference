@@ -1,6 +1,6 @@
 tabby_cat = "\tI'm tabbed in."
 persian_cat = "I'm split\non a line."
-backslash_cat = "I'm \\ a \\ cat."
+backslash_cat = "I'm\\a\\cat."
 
 fat_cat = """
 I'll do a list:
@@ -14,12 +14,12 @@ puts persian_cat
 puts backslash_cat
 puts fat_cat
 
-puts "\\"
-puts "\'"
-puts "\""
-puts "\a bell sound"
-print "\b ba\bck\bspac\be\b"
-puts "\f formfeed"
+puts "\\" # backslash
+puts "\'" # single-quote
+puts "\"" # double-quote
+puts "\a bell sound" # ASCII bell
+print "\b ba\bck\bspac\be\b" # ASCII backspace
+puts "\f formfeed" # ASCII formfeed
 puts "\n linefeed"
 puts "\r carriage return"
 puts "\t tab"
